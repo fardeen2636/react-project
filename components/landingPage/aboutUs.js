@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 function AboutUs() {
@@ -21,9 +20,8 @@ function AboutUs() {
           </div>
           <p>
             At Spering we are more than just a platform connecting freelancers with clients we are architects of collaboration, champions of creativity, and facilitators of success. Our journey began with a simple yet profound vision to redefine the way businesses access top-tier talent while providing freelancers with meaningful opportunities to showcase their skills.
-            Whether you are a business seeking exceptional talent or a freelancer ready to showcase your skills, Spering is the catalyst for your success. Contact us today, and let's embark on a journey of innovation, collaboration, and unparalleled achievement.
+            Whether you are a business seeking exceptional talent or a freelancer ready to showcase your skills, Spering is the catalyst for your success. Contact us today, and let&apos;s embark on a journey of innovation, collaboration, and unparalleled achievement.
           </p>
-
         </div>
       </div>
     </section>
