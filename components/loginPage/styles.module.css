@@ -1,0 +1,77 @@
+.container {
+  max-width: 600px;
+  box-sizing: border-box
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: #333333;
+}
+
+.my-2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* Style the form inputs */
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.form-control {
+  flex: 1;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Style the login button */
+.btn-primary {
+  background-color: #0000FF ;
+  border-color: #0000FF ;
+}
+
+/* Style the spinner inside the button */
+.btn-primary .spinner-border {
+  border-color: #fff;
+}
+
+/* Style the Back and SignUp links */
+.mt-4 a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.mt-4 a:hover {
+  text-decoration: underline;
+}
+
+/* Toast notifications */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast--success {
+  background-color: #28a745;
+}
+
+.Toastify__toast--error {
+  background-color: #dc3545;
+}
