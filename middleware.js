@@ -1,9 +1,9 @@
-// middleware.js
+// [ MIDDLEWARE.JS FILE ]
 
 import { NextResponse } from "next/server";
 
 export default function middleware(req) {
-  const AUTH_NOT_ALLOWED_PATHS = ["/login", "/signup", "/about", "/category", "/quote"];
+  const AUTH_NOT_ALLOWED_PATHS = ["/login", "/signup", "/about", "/category", "/quote", "/chat"];
   const NO_AUTH_PATHS = ["/", "/home"];
 
   let loggedin = !!req.cookies.get("fardeenproject2");
