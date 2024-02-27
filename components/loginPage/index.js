@@ -17,9 +17,12 @@ function Login() {
   const router = useRouter();
 
   const handleFormSubmit = async (values) => {
+    console.log("Email Entered:",values.email);
+    console.log("Password Entered:",values.password);
     const res = await loginService({
       password: values.password,
       email: values.email,
+
     });
 
     if (res.success) {
@@ -76,6 +79,7 @@ function Login() {
                             placeholder="Email Address"
                             label="Email"
                             component={InputField}
+
                           />
                         </div>
                         <div className="col-12 my-2">
