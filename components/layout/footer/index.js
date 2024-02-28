@@ -32,7 +32,7 @@ function FooterPage() {
                     </li>
                     <li className="">
                       <Link className="" href="./users">
-                        Work{" "}
+                        freelancers{" "}
                       </Link>
                     </li>
                     <li className="">
